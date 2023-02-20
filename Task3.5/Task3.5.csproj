@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BA8398AC-14A6-4C62-B60A-6CF32EE5BEA3}</ProjectGuid>
+    <ProjectGuid>{F7758B4E-58A7-443F-BDD1-5D022ACB0174}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Task3._2</RootNamespace>
-    <AssemblyName>Task3.2</AssemblyName>
+    <RootNamespace>Task3._5</RootNamespace>
+    <AssemblyName>Task3.5</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BadPupil.cs" />
-    <Compile Include="ClassRoom.cs" />
-    <Compile Include="ExcelentPupil.cs" />
-    <Compile Include="GoodPupil.cs" />
+    <Compile Include="GreenPrinter.cs" />
+    <Compile Include="YellowPrinter.cs" />
+    <Compile Include="Printer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Pupil.cs" />
+    <Compile Include="RedPrinter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
